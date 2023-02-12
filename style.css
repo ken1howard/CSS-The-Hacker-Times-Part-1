@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-html {
-    background-color: #777;
-    
-}
+
 body {
     background-color: #eee;
     border: solid #eee;
@@ -18,11 +15,17 @@ h1 {
 
 
 }
-.newspaper-container {
 
-border-radius: 8px solid;
+h4 {
+    font-family: roboto Slab;
+}
+.newspaper-container {
+width: 700px;
+background: white ;
+border-radius: 15px;
 box-shadow: #ddd;
-padding: auto;
+padding: 15px;
+margin: 30px auto;
 
 }
 h2{
@@ -36,6 +39,7 @@ ul {
     list-style-type: none;
     letter-spacing: normal;
     padding: 7px;
+    font-size: small;
    
 }
 a:link {
@@ -46,8 +50,8 @@ a:hover {
     color: blue;
 }
 li {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 nav {
     text-align: center;
@@ -56,12 +60,12 @@ nav {
 
 #computer-pic {
     width: -webkit-fill-available;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 #computer-text {
-margin-left: 100px;
-margin-right: 100px;
+margin-left: 50px;
+margin-right: 50px;
 }
 body { 
 background: #eee;
@@ -72,15 +76,15 @@ background: #eee;
     border-top: 0.5px solid #777;
 }
 #one-two {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     text-align: left;
  
 
 }
 #two-one {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     text-align: left;
 
 }
